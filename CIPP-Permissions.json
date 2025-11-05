@@ -226,6 +226,11 @@
         "Description": "Allows the app to read and write the organization and related resources, on your behalf. Related resources include things like subscribed skus and tenant branding information."
       },
       {
+        "Id": "346c19ff-3fb2-4e81-87a0-bac9e33990c1",
+        "Name": "OrgSettings-Forms.ReadWrite.All",
+        "Description": "Allows the app to read and write organization-wide Microsoft Forms settings on your behalf."
+      },
+      {
         "Id": "e67e6727-c080-415e-b521-e3f35d5248e9",
         "Name": "PeopleSettings.ReadWrite.All",
         "Description": "Allows the application to read and write tenant-wide people settings on your behalf."
@@ -421,6 +426,11 @@
         "Description": "Allows the app to read and write your authentication methods, including phone numbers and Authenticator app settings.This does not allow the app to see secret information like your passwords, or to sign-in or otherwise use your authentication methods."
       },
       {
+        "Id": "424b07a8-1209-4d17-9fe4-9018a93a1024",
+        "Name": "TeamsTelephoneNumber.ReadWrite.All",
+        "Description": "Allows the app to read and modify your tenant's acquired telephone number details on behalf of the signed-in admin user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc."
+      },
+      {
         "Id": "b7887744-6746-4312-813d-72daeaee7e2d",
         "Name": "UserAuthenticationMethod.ReadWrite.All",
         "Description": "Allows the app to read and write authentication methods of all users you have access to in your organization.                       Authentication methods include things like a user’s phone numbers and Authenticator app settings. This does not allow                      the app to see secret information like passwords, or to sign-in or otherwise use the authentication methods."
@@ -578,6 +588,11 @@
         "Description": "Allows the app to read and write the organization and related resources, without a signed-in user. Related resources include things like subscribed skus and tenant branding information."
       },
       {
+        "Id": "2cb92fee-97a3-4034-8702-24a6f5d0d1e9",
+        "Name": "OrgSettings-Forms.ReadWrite.All",
+        "Description": "Allows the app to read and write organization-wide Microsoft Forms settings, without a signed-in user."
+      },
+      {
         "Id": "b6890674-9dd5-4e42-bb15-5af07f541ae1",
         "Name": "PeopleSettings.ReadWrite.All",
         "Description": "Allows the application to read and write tenant-wide people settings without a signed-in user."
@@ -638,6 +653,11 @@
         "Description": "Allows the app to read and update all admin report settings, such as whether to display concealed information in reports, without a signed-in user."
       },
       {
+        "Id": "025d3225-3f02-4882-b4c0-cd5b541a4e80",
+        "Name": "RoleManagement.ReadWrite.Exchange",
+        "Description": "Allows the app to read and manage the role-based access control (RBAC) settings for your organization's Exchange Online service, without a signed-in user. This includes reading, creating, updating, and deleting Exchange management role definitions, role groups, role group membership, role assignments, management scopes, and role assignment policies."
+      },
+      {
         "Id": "04c55753-2244-4c25-87fc-704ab82a4f69",
         "Name": "SecurityAnalyzedMessage.ReadWrite.All",
         "Description": "Read email metadata and security detection details, and execute remediation actions like deleting an email, without a signed-in user."
@@ -681,6 +701,11 @@
         "Id": "741f803b-c850-494e-b5df-cde7c675a1ca",
         "Name": "User.ReadWrite.All",
         "Description": "Allows the app to read and update user profiles without a signed in user."
+      },
+      {
+        "Id": "0a42382f-155c-4eb1-9bdc-21548ccaa387",
+        "Name": "TeamsTelephoneNumber.ReadWrite.All",
+        "Description": "Allows the app to read your tenant's acquired telephone number details, without a signed-in user. Acquired telephone numbers may include attributes related to assigned object, emergency location, network site, etc."
       },
       {
         "Id": "50483e42-d915-4231-9639-7fdb7fd190e5",
